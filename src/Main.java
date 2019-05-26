@@ -17,7 +17,7 @@ public class Main {
         int n = 1;
         HashMap<String,Integer> HashURL = new HashMap<String, Integer>();
         while(n <= 115) {
-            BufferedReader readTxt = new BufferedReader(new FileReader(new File( System.getProperty("user.dir") + "/" + n + ".txt")));
+            BufferedReader readTxt = new BufferedReader(new FileReader(new File(  "../" + n + ".txt")));
 
             String textLine = "";
 
